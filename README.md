@@ -35,17 +35,17 @@ Optionally, if you want to train network by yourself you need to create a certai
  - Data
    * Images
      - 1
-       -- photo1.jpg
-       -- photo2.jpg
+       - photo1.jpg  
+        - photo2.jpg
      - 2
-       -- photo1.jpg
-       -- ...
+       - photo1.jpg
+        - ...
      - ...
    * Labels
      - 1
-       -- label.txt
+       - label.txt
      - 2
-       -- label.txt
+       - label.txt
      - ...
    
      
