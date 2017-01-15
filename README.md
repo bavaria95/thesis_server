@@ -3,6 +3,15 @@
 
 Aim of this project was to create a simple library to recognize one of 7 emotions (*anger, contempt, disgust, fear, happy, sadness, surprise*) of the person on the image using either pre-trained network by us or train it by yourself firstly.
 
+# Run server
+To run the server it's suggested to use [gunicorn](http://gunicorn.org/).
+```bash
+gunicorn server:app
+```
+
+And later navigate to [127.0.0.1:8000](http://127.0.0.1:8000) (default port, you can specify another).
+
+
 [Dataset](http://www.consortium.ri.cmu.edu/ckagree/)
 
 As base algorithm for this project Convolutional Neural Networks have been used (modification of LeNet architecture, with *dropout* technique).
